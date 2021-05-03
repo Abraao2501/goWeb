@@ -1,0 +1,47 @@
+.menu-container {
+    position: absolute;
+    top: 0;
+    right: -50rem;
+
+    transition: .5s;
+}
+.originalPosition {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.menu-container nav{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var( --bg-color);
+
+    width: 28rem;
+    height: 32rem;
+
+    z-index: 10;
+
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.2), 0px 12px 17px rgba(0, 0, 0, 0.14), 0px 5px 22px rgba(0, 0, 0, 0.12);
+
+
+    
+}
+.menu-container nav a {
+    font-family: 'Antic Slab', serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1.5rem;
+
+    text-decoration: none;
+    transition: .5s;
+}
+.menu-container nav a:hover {
+    opacity: .5;
+}
